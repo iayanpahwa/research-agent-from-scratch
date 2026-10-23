@@ -42,6 +42,7 @@ from `measure_pages.py`; token counts there are characters divided by four.
 
 The recorded runs predate a review pass that hardened the HTML extractor, the notes queries and the error
 handling in `run_tool`, and reworded the `read_notes` tool description. The logic the traces show is unchanged.
+`postfix/` holds two runs of the hardened code on the same question. The second one reads the notes the first one saved.
 
 ## What could go wrong
 
