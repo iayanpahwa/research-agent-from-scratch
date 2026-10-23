@@ -1,0 +1,13 @@
+**Simon Willison coined the term “prompt injection.”** In a September 2022 post, he named the attack after Riley Goodside demonstrated how malicious input could make GPT-3 ignore its preceding instructions. The analogy was to **SQL injection**: untrusted input is combined with trusted instructions or code.
+
+**Difference from jailbreaking:**
+
+- **Prompt injection:** An attack on an application built around an LLM, where untrusted content—such as a user message, email, webpage, or document—manipulates the model into abandoning the application’s intended task. It may aim to leak data or trigger unauthorized tools, not necessarily to produce prohibited content.
+- **Jailbreaking:** An attempt to bypass safety restrictions built into the model itself, usually to make it generate content it would otherwise refuse.
+
+There is overlap: a jailbreak can use prompt injection techniques, but prompt injection is the broader **application-security** problem, whereas jailbreaking primarily targets the model’s safety filters.
+
+**Sources**
+
+- Simon Willison, [“Prompt injection attacks against GPT-3”](https://simonwillison.net/2022/Sep/12/prompt-injection/)
+- Simon Willison, [“Prompt injection and jailbreaking are not the same thing”](https://simonwillison.net/2024/Mar/5/prompt-injection-jailbreaking/)

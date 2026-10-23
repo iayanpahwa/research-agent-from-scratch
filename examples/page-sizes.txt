@@ -1,0 +1,4 @@
+page                                                            html chars    ~tok  text chars   ~tok
+en.wikipedia.org/wiki/Prompt_injection                             180,136  45,034      17,208  4,302
+www.anthropic.com/engineering/building-effective-agents            257,259  64,314      18,188  4,547
+docs.python.org/3/library/sqlite3.html                             315,547  78,886      72,623 18,155

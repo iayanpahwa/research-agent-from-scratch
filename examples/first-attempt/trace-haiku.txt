@@ -1,0 +1,6 @@
+step 1 | search_wikipedia({"query": "prompt injection"}) | 1328 chars | in 962 out 115
+step 1 | search_wikipedia({"query": "jailbreaking AI language models"}) | 1343 chars | in 962 out 115
+step 2 | fetch_url({"url": "https://en.wikipedia.org/wiki/Prompt_injection"}) | 8963 chars | in 1858 out 96
+step 3 | save_note({"topic": "Prompt Injection - Term Coiner", "claim": "Simon Willison p) | 15 chars | in 4015 out 295
+step 3 | save_note({"topic": "Prompt Injection vs Jailbreaking", "claim": "Prompt injecti) | 15 chars | in 4015 out 295
+stop=answer steps=4 fetches=1 tokens_in=11216 tokens_out=725 cost=$0.0148 seconds=11.2

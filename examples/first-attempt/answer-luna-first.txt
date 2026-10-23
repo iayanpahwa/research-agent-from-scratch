@@ -1,0 +1,10 @@
+The term **“prompt injection” was first used in May 2022 by the Twitter user @himbodhisattva**. **Simon Willison** independently used and popularized the term later that year. Jonathan Cefalu had previously identified the vulnerability, calling it **“command injection.”**
+
+**Difference from jailbreaking:**
+
+- **Prompt injection** exploits an AI system’s failure to distinguish trusted instructions—such as system or developer prompts—from untrusted user input or external content. It can be direct or indirect, such as hidden instructions in a webpage the AI reads.
+- **Jailbreaking** specifically attempts to bypass an AI model’s safety rules or content restrictions, usually through specially crafted user prompts.
+
+They overlap, but are not synonymous: **a prompt injection may cause a jailbreak, but prompt injection also includes attacks that manipulate an AI’s behavior or tool use without bypassing safety safeguards.**
+
+**Source:** [Wikipedia: Prompt injection](https://en.wikipedia.org/wiki/Prompt_injection)

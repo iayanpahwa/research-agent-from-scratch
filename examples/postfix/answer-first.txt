@@ -1,0 +1,13 @@
+The term **“prompt injection” was first used, in the AI-security sense, by the Twitter/X user @himbodhisattva in May 2022**. **Simon Willison independently proposed and popularized the term in September 2022**, comparing the attack to SQL injection. Thus, Willison is often credited with popularizing—not strictly inventing—the phrase.
+
+**Difference from jailbreaking:**
+
+- **Prompt injection** exploits an LLM’s failure to distinguish trusted instructions from untrusted input. For example, text in a document or user message says, “Ignore the instructions above,” causing the model to perform an unintended task. It can be **direct** (user input) or **indirect** (instructions hidden in a webpage, email, or file).
+- **Jailbreaking** specifically aims to **bypass a model’s safety restrictions**—for example, persuading it to provide content it is designed to refuse.
+
+They overlap: a prompt injection can be used as a jailbreak, but prompt injection can also cause unintended behavior without bypassing safety filters.
+
+**Sources:**
+
+- [Prompt injection — Wikipedia](https://en.wikipedia.org/wiki/Prompt_injection)
+- [Simon Willison, “Prompt injection attacks against GPT-3”](https://simonwillison.net/2022/Sep/12/prompt-injection/)

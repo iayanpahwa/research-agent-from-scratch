@@ -1,0 +1,15 @@
+## Answer
+
+**Who coined the term:**
+Simon Willison independently popularized the term "prompt injection" in September 2022. The term was initially used on Twitter by @himbodhisattva in May 2022, but Willison is credited with popularizing it.
+
+**How it differs from jailbreaking:**
+
+- **Prompt Injection**: Exploits an AI model's inability to differentiate between system instructions and user inputs. The attack tricks the model by embedding malicious instructions within regular user input.
+
+- **Jailbreaking**: Bypasses the AI model's safeguards and safety mechanisms directly to get it to perform prohibited tasks.
+
+The key distinction is that prompt injection targets a fundamental design limitation (inability to distinguish instruction types), while jailbreaking targets the safety guardrails themselves. However, some prompt injection attacks can involve jailbreaking, so the two techniques overlap.
+
+**Sources:**
+- https://en.wikipedia.org/wiki/Prompt_injection

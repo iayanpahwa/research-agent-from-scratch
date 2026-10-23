@@ -1,0 +1,14 @@
+step 1 | read_notes({"topic":"prompt injection jailbreaking coined term"}) | 13 chars | in 307 out 37
+step 2 | search_wikipedia({"query":"prompt injection term coined who coined prompt injection jai) | 278 chars | in 360 out 29
+step 3 | search_wikipedia({"query":"Simon Willison coined prompt injection term 2022"}) | 15 chars | in 463 out 52
+step 4 | fetch_url({"url":"https://simonwillison.net/2022/Sep/12/prompt-injection/"}) | 9457 chars | in 532 out 181
+step 4 | fetch_url({"url":"https://en.wikipedia.org/wiki/Prompt_injection"}) | 8963 chars | in 532 out 181
+step 4 | fetch_url({"url":"https://en.wikipedia.org/wiki/Jailbreaking"}) | 5446 chars | in 532 out 181
+step 5 | fetch_url({"url":"https://twitter.com/himbodhisattva/status/1525187982090209280") | 89 chars | in 6245 out 199
+step 5 | fetch_url({"url":"https://simonwillison.net/2022/Sep/16/prompt-injection-solutio) | 6081 chars | in 6245 out 199
+step 5 | fetch_url({"url":"https://www.lakera.ai/blog/what-is-prompt-injection"}) | 86 chars | in 6245 out 199
+step 6 | save_note({"topic":"origin of prompt injection term","claim":"The term “prompt i) | 15 chars | in 8123 out 362
+step 6 | save_note({"topic":"Simon Willison naming prompt injection","claim":"On Septembe) | 15 chars | in 8123 out 362
+step 6 | save_note({"topic":"prompt injection versus jailbreaking","claim":"Prompt inject) | 15 chars | in 8123 out 362
+step 6 | save_note({"topic":"prompt injection behavior","claim":"Prompt injection can cau) | 15 chars | in 8123 out 362
+stop=answer steps=7 fetches=6 tokens_in=24573 tokens_out=1217 cost=$0.0064 seconds=29.0

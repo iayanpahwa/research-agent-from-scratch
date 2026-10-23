@@ -1,0 +1,13 @@
+The term **“prompt injection”** is generally credited to **@himbodhisattva**, who used it in a May 2022 tweet. **Simon Willison** independently proposed the term in September 2022 and helped popularize it, comparing the attack to SQL injection. Some accounts therefore credit Willison as the person who named or popularized it, but he was not necessarily the first to use the phrase.
+
+**Difference from jailbreaking:**
+
+- **Prompt injection:** Manipulates an AI by inserting instructions into its input—possibly in user text, webpages, emails, or documents—so it treats untrusted content as instructions and performs an unintended task.
+- **Jailbreaking:** Specifically attempts to bypass the model’s built-in safety policies or restrictions, such as getting it to produce disallowed content.
+
+They overlap: a prompt injection can be used as a jailbreak, but prompt injection also includes attacks that cause unintended behavior without bypassing safety safeguards.
+
+**Sources:**
+
+- [Prompt injection — Wikipedia](https://en.wikipedia.org/wiki/Prompt_injection)
+- [Simon Willison, “Prompt injection attacks against GPT-3”](https://simonwillison.net/2022/Sep/12/prompt-injection/)

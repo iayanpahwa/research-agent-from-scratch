@@ -1,0 +1,5 @@
+# Recorded 23 Oct 2026 on this machine: AGENT_BASE_URL=http://localhost:11434/v1 AGENT_MODEL=llama3.1:8b
+# Question: What is prompt injection and who named it?
+step 1 | search_wikipedia({"query":"prompt injection"}) | 1328 chars | in 446 out 19
+stop=answer steps=2 fetches=0 tokens_in=913 tokens_out=82 cost=$0.0000 seconds=34.0
+# Answer (excerpt): The term "prompt injection" was used by the company Preamble ... Sources: Wikipedia pages

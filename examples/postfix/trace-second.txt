@@ -1,0 +1,8 @@
+step 1 | read_notes({"topic":"prompt injection jailbreaking coined term"}) | 1351 chars | in 307 out 38
+step 2 | search_wikipedia({"query":"prompt injection coined term Simon Willison himbodhisattva j) | 15 chars | in 664 out 51
+step 3 | fetch_url({"url":"https://simonwillison.net/2022/Sep/12/prompt-injection/"}) | 9457 chars | in 732 out 114
+step 3 | fetch_url({"url":"https://en.wikipedia.org/wiki/Prompt_injection"}) | 8963 chars | in 732 out 114
+step 4 | save_note({"topic":"coining prompt injection","claim":"The term “prompt injectio) | 15 chars | in 4924 out 369
+step 4 | save_note({"topic":"Simon Willison prompt injection naming","claim":"On Septembe) | 15 chars | in 4924 out 369
+step 4 | save_note({"topic":"prompt injection vs jailbreaking","claim":"Prompt injection ) | 15 chars | in 4924 out 369
+stop=answer steps=5 fetches=2 tokens_in=11964 tokens_out=828 cost=$0.0034 seconds=17.1

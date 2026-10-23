@@ -1,0 +1,16 @@
+Installed 7 packages in 13ms
+step 1 | read_notes({"topic":"prompt injection jailbreaking coined term"}) | 13 chars | in 300 out 37
+step 2 | search_wikipedia({"query":"prompt injection term coined who coined prompt injection jai) | 278 chars | in 353 out 29
+step 3 | fetch_url({"url":"https://en.wikipedia.org/wiki/Large_language_model"}) | 9001 chars | in 456 out 49
+step 4 | search_wikipedia({"query":"prompt injection Simon Willison coined term 2022"}) | 15 chars | in 2455 out 121
+step 4 | search_wikipedia({"query":"jailbreaking artificial intelligence prompt injection distin) | 15 chars | in 2455 out 121
+step 4 | search_wikipedia({"query":"Simon Willison prompt injection term"}) | 293 chars | in 2455 out 121
+step 4 | search_wikipedia({"query":"prompt injection article term coined"}) | 1267 chars | in 2455 out 121
+step 5 | fetch_url({"url":"https://en.wikipedia.org/wiki/Prompt_injection"}) | 8963 chars | in 3034 out 27
+step 6 | search_wikipedia({"query":"site:Simonwillison.net prompt injection September 2022"}) | 15 chars | in 4911 out 130
+step 6 | search_wikipedia({"query":"site:github.blog prompt injection Simon Willison jailbreak"}) | 15 chars | in 4911 out 130
+step 6 | search_wikipedia({"query":"OWASP LLM prompt injection jailbreaking definition"}) | 15 chars | in 4911 out 130
+step 7 | save_note({"topic":"prompt injection coinage","claim":"The term “prompt injectio) | 15 chars | in 5088 out 304
+step 7 | save_note({"topic":"prompt injection vs jailbreaking","claim":"Prompt injection ) | 15 chars | in 5088 out 304
+step 7 | save_note({"topic":"prompt injection history","claim":"Jonathan Cefalu of Preamb) | 15 chars | in 5088 out 304
+stop=answer steps=8 fetches=2 tokens_in=22033 tokens_out=904 cost=$0.0055 seconds=26.1

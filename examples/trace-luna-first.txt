@@ -1,0 +1,17 @@
+step 1 | read_notes({"topic":"prompt injection jailbreaking coined term"}) | 13 chars | in 300 out 38
+step 2 | search_wikipedia({"query":"prompt injection term coined who coined prompt injection jai) | 278 chars | in 354 out 42
+step 3 | fetch_url({"url":"https://simonwillison.net/2022/Sep/12/prompt-injection/"}) | 9457 chars | in 470 out 256
+step 3 | fetch_url({"url":"https://en.wikipedia.org/wiki/Large_language_model"}) | 9001 chars | in 470 out 256
+step 3 | fetch_url({"url":"https://owasp.org/www-community/attacks/Prompt_Injection"}) | 86 chars | in 470 out 256
+step 4 | search_wikipedia({"query":"jailbreaking prompt injection difference AI security"}) | 813 chars | in 4939 out 44
+step 5 | fetch_url({"url":"https://simonwillison.net/2023/May/2/prompt-injection-and-jail) | 796 chars | in 5176 out 340
+step 5 | fetch_url({"url":"https://community.owasp.org/attacks/Prompt_Injection"}) | 1469 chars | in 5176 out 340
+step 5 | fetch_url({"url":"https://www.microsoft.com/en-us/security/blog/2023/10/19/ai-ja) | 4457 chars | in 5176 out 340
+step 6 | save_note({"topic":"prompt injection coined term","claim":"Simon Willison coined) | 15 chars | in 6974 out 500
+step 6 | save_note({"topic":"prompt injection definition","claim":"Willison describes pro) | 15 chars | in 6974 out 500
+step 6 | save_note({"topic":"prompt injection versus jailbreaking","claim":"Prompt inject) | 15 chars | in 6974 out 500
+step 7 | fetch_url({"url":"https://simonwillison.net/series/prompt-injection/"}) | 8768 chars | in 7518 out 79
+step 8 | fetch_url({"url":"https://simonwillison.net/2024/Mar/5/prompt-injection-and-jail) | 101 chars | in 9798 out 100
+step 9 | fetch_url({"url":"https://simonwillison.net/2024/Mar/5/prompt-injection-jailbrea) | 9202 chars | in 9943 out 39
+step 10 | save_note({"topic":"prompt injection and jailbreaking distinction authoritative") | 15 chars | in 12109 out 117
+stop=answer steps=11 fetches=9 tokens_in=69823 tokens_out=1836 cost=$0.0162 seconds=42.0

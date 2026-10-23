@@ -1,0 +1,8 @@
+step 1 | read_notes({"topic":"prompt injection jailbreaking coined term"}) | 1632 chars | in 300 out 38
+step 2 | search_wikipedia({"query":"prompt injection term coined Simon Willison Riley Goodside j) | 15 chars | in 712 out 63
+step 3 | fetch_url({"url":"https://simonwillison.net/2022/Sep/12/prompt-injection/"}) | 9457 chars | in 792 out 102
+step 3 | fetch_url({"url":"https://simonwillison.net/2024/Mar/5/prompt-injection-jailbrea) | 9202 chars | in 792 out 102
+step 4 | save_note({"topic":"who coined prompt injection","claim":"Simon Willison propose) | 15 chars | in 5249 out 284
+step 4 | save_note({"topic":"prompt injection definition","claim":"Willison defines promp) | 15 chars | in 5249 out 284
+step 4 | save_note({"topic":"jailbreaking distinction","claim":"Willison defines jailbrea) | 15 chars | in 5249 out 284
+stop=answer steps=5 fetches=2 tokens_in=12630 tokens_out=767 cost=$0.0034 seconds=15.5

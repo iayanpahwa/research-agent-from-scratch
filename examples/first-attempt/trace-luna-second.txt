@@ -1,0 +1,15 @@
+step 1 | read_notes({"topic":"prompt injection jailbreaking coined term"}) | 13 chars | in 300 out 37
+step 2 | search_wikipedia({"query":"prompt injection term coined Simon Willison 2022 jailbreakin) | 15 chars | in 353 out 48
+step 3 | search_wikipedia({"query":"Prompt injection"}) | 1328 chars | in 418 out 90
+step 3 | search_wikipedia({"query":"AI jailbreaking large language models"}) | 1354 chars | in 418 out 90
+step 3 | search_wikipedia({"query":"Simon Willison prompt injection"}) | 831 chars | in 418 out 90
+step 4 | fetch_url({"url":"https://en.wikipedia.org/wiki/Prompt_injection"}) | 8963 chars | in 1340 out 43
+step 5 | fetch_url({"url":"https://simonwillison.net/2022/Sep/12/prompt-injection/"}) | 9457 chars | in 3233 out 159
+step 5 | fetch_url({"url":"https://www.preamble.com/blog/prompt-injection"}) | 397 chars | in 3233 out 159
+step 5 | fetch_url({"url":"https://arxiv.org/abs/2302.12173"}) | 6225 chars | in 3233 out 159
+step 6 | search_wikipedia({"query":"Simon Willison prompt injection jailbreaking difference syst) | 15 chars | in 7266 out 128
+step 7 | save_note({"topic":"prompt injection origin","claim":"The term “prompt injection) | 15 chars | in 7411 out 342
+step 7 | save_note({"topic":"prompt injection origin primary","claim":"Simon Willison’s S) | 15 chars | in 7411 out 342
+step 7 | save_note({"topic":"prompt injection vs jailbreaking","claim":"Prompt injection ) | 15 chars | in 7411 out 342
+step 7 | save_note({"topic":"indirect prompt injection","claim":"Indirect prompt injectio) | 15 chars | in 7411 out 342
+stop=answer steps=8 fetches=4 tokens_in=28132 tokens_out=1271 cost=$0.0072 seconds=27.5

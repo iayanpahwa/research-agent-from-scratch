@@ -1,0 +1,6 @@
+step 1 | search_wikipedia({"query": "prompt injection"}) | 1328 chars | in 962 out 113
+step 1 | search_wikipedia({"query": "jailbreaking AI"}) | 1323 chars | in 962 out 113
+step 2 | fetch_url({"url": "https://en.wikipedia.org/wiki/Prompt_injection"}) | 8963 chars | in 1840 out 89
+step 3 | save_note({"topic": "prompt injection coiner", "claim": "The term \"prompt injec) | 15 chars | in 3990 out 300
+step 3 | save_note({"topic": "prompt injection vs jailbreaking", "claim": "Prompt injecti) | 15 chars | in 3990 out 300
+stop=answer steps=4 fetches=1 tokens_in=11153 tokens_out=725 cost=$0.0148 seconds=10.9
